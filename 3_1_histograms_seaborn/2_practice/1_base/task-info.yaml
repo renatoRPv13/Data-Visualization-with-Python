@@ -1,0 +1,41 @@
+type: edu
+custom_name: Base
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 43
+        length: 21
+        placeholder_text: from data import read
+        initial_state:
+          length: 21
+          offset: 43
+        initialized_from_dependency: false
+        encrypted_possible_answer: oy7pzuCtTzXNsvreSjh0qJHhEAWENCDO8wOockuJdTc=
+        selected: false
+        status: Unchecked
+        is_visible: false
+      - offset: 119
+        length: 14
+        placeholder_text: "return  # TODO"
+        initial_state:
+          length: 14
+          offset: 119
+        initialized_from_dependency: false
+        encrypted_possible_answer: mBQBS0Sn5eMKDASEoBRkB1hei80y68ooPx9zPZ34z/2JpwzocmyfSDQf/AjqGaU6OYWfN3VuGKoW6vkmggluNkZU1yTJBHJWq5g4hARs6VaFBFPg9Htjz+Y1ea2vy+bAyKKj2T8WTTQ26ddPAEZEJA==
+        selected: false
+        status: Unchecked
+        is_visible: false
+    learner_created: false
+  - name: data.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: example.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Unchecked
+record: -1

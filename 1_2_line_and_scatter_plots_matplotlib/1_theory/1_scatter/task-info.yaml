@@ -1,0 +1,30 @@
+type: edu
+custom_name: Scatter plot
+files:
+  - name: data.py
+    visible: false
+    learner_created: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 138
+        length: 14
+        placeholder_text: "return  # TODO"
+        initial_state:
+          length: 14
+          offset: 138
+        initialized_from_dependency: false
+        encrypted_possible_answer: ska97hSzhd/0p3OJK9wY7Y/ELgFfWNp1bG+12kmSZIJmtFo/muq+qMR68/z5yWMXt3Cozj37TKS/cs2DvLBLbic8vmOfQ7lHmk5SvBdFFHY0YfPfk4WGr9JJ0KIyg2RSbHa4WmLPvuGvTGMHZ/pFOg==
+        selected: false
+        status: Unchecked
+        is_visible: false
+    learner_created: false
+  - name: example.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1

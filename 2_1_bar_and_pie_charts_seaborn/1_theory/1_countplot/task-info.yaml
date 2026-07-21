@@ -1,0 +1,34 @@
+type: edu
+custom_name: Count plot with catplot
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 131
+        length: 14
+        placeholder_text: "return  # TODO"
+        initial_state:
+          length: 14
+          offset: 131
+        initialized_from_dependency: false
+        encrypted_possible_answer: /ORIgdLMKt1o6PMfDxXBlVFvOJiIAsi5AsGheId0Z9i6pDVb9ByB0Yy5i4nXitQtjEP3JJ2s7NA/2VCNWqTnOg==
+        selected: false
+        status: Unchecked
+        is_visible: false
+    learner_created: false
+  - name: data.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: example.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: plot.png
+    visible: true
+    is_binary: true
+    learner_created: true
+status: Unchecked
+record: -1

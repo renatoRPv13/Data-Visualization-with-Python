@@ -1,0 +1,44 @@
+type: edu
+custom_name: Base
+files:
+  - name: data.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 77
+        length: 0
+        placeholder_text: ""
+        initial_state:
+          length: 0
+          offset: 77
+        initialized_from_dependency: false
+        encrypted_possible_answer: G/zFUF0EYHQs4KEDPRqwYiA/MH6HGrXCx5XWqAGCVOP/SE0DtZAi7zqnKzz+yE8xMB8FCU6Ib2XQD9y6L9WtQkkWK6OY3Zez8Njiyr3R+Il/uv90sIjqJwwf0eSCw4t5TnRr8F1rJm729bWx3ADWp3umUmeNhiEquuwOGztlb1o+QDqI5UXVYJOLgwSXqcXb/eHRZosztEkciuU47AF0mWeySks49KiUEDhxCKGjZAcvc5tTDZPy/1EJ9D+I8Og/yu3hAqy/kQIvEPCM0KVV4Edtom6NboFyeNMN17iSuxYW2NOyq71k1OQhw6ndWuz209nKxjroOvdX/SXfhrw1mMRCS1YKHtHY2FC7EH5QkOm0RCoRjxvPOgYpxCW321pNnJfsKaw6g1Uuc2oVxc4jma0+wzFGHV633SAa0wfLsxTYQGqguD6FQy0NTbxbQavGvxxNXVIlGxaK8AHpQLjk+OIWMVESxSpE8uRkAVIHaFHSFIDy5cSAPlTGsLM5+Y4s+LXsgHFOUH6paaBvquy6Bw==
+        selected: false
+        status: Unchecked
+        is_visible: false
+      - offset: 131
+        length: 14
+        placeholder_text: "return  # TODO"
+        initial_state:
+          length: 14
+          offset: 131
+        initialized_from_dependency: false
+        encrypted_possible_answer: ska97hSzhd/0p3OJK9wY7cYcrkkJSwZb1/FI556U172tSk24JKVo4YyoE+Vo4imgofpH+zlYt/07grD4wyx4YlOIPqwUpVuMNHX4MJw9vL58wrP4VmKW6QiCV/BHkkB6
+        selected: false
+        status: Unchecked
+        is_visible: false
+    learner_created: false
+  - name: example.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Unchecked
+record: 5

@@ -1,0 +1,45 @@
+type: edu
+custom_name: "Bar Chart. Part #1"
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 1332
+        length: 46
+        placeholder_text: "from data import preprocess, read"
+        initial_state:
+          length: 33
+          offset: 53
+        initialized_from_dependency: false
+        encrypted_possible_answer: oy7pzuCtTzXNsvreSjh0qLsYLcRTi30ZPbai9RueeGTIk9xH/GOCTthKHxaFIt3F
+        selected: false
+        status: Unchecked
+        is_visible: false
+      - offset: 1534
+        length: 648
+        placeholder_text: "return  # TODO"
+        initial_state:
+          length: 14
+          offset: 302
+        initialized_from_dependency: false
+        encrypted_possible_answer: pACnxhd7dFUBMpY14sKX2sLMS+h8MEBqvdymLjCsnAo/BRGkAQCs5mObxixqbkfnLFYT+80TojIW+EDyTkF28MqIxSS99lf5AqG6pKO30oRB2xUKn+jgAzNg4opNK7WyffD7Fj6tCj9Gnwhn02nRyZyG98VPzB9bOOxqrqeM2+w=
+        selected: false
+        status: Unchecked
+        is_visible: false
+    learner_created: false
+  - name: data.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: example.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: plot.png
+    visible: true
+    is_binary: true
+    learner_created: true
+status: Unchecked
+record: -1

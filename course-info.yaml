@@ -1,0 +1,138 @@
+type: marketplace
+title: Data Visualization with Python
+language: English
+summary: "<p>Learn to visualize data and present it with confidence. Build charts\
+  \ using Python, Matplotlib, and Seaborn—from line plots to heatmaps. Beginner-friendly,\
+  \ hands-on, and career-relevant.</p>"
+programming_language: Python
+environment: unittest
+content:
+  - 0_intro
+  - 1_0_line_and_scatter_plots_intro
+  - 1_1_line_and_scatter_plots_seaborn
+  - 1_2_line_and_scatter_plots_matplotlib
+  - 2_0_bar_and_pie_charts_intro
+  - 2_1_bar_and_pie_charts_seaborn
+  - 2_2_bar_and_pie_charts_matplotlib
+  - 3_0_histograms_intro
+  - 3_1_histograms_seaborn
+  - 3_2_histograms_matplotlib
+additional_files:
+  - name: requirements.txt
+  - name: LICENSE
+  - name: common/resources/images/common/entry_point.png
+    is_binary: true
+  - name: common/resources/images/common/entry_point_dark.png
+    is_binary: true
+  - name: common/resources/images/common/hidden_function_import_dark.gif
+    is_binary: true
+  - name: common/resources/images/common/hidden_function_import.gif
+    is_binary: true
+  - name: common/resources/images/common/output_location.png
+    is_binary: true
+  - name: common/resources/images/common/output_location_dark.png
+    is_binary: true
+  - name: common/resources/images/intro/wikimedia-status-dashboard.png
+    is_binary: true
+  - name: common/resources/images/intro/tableau.png
+    is_binary: true
+  - name: common/resources/images/intro/sport-2.png
+    is_binary: true
+  - name: common/resources/images/intro/sport-1.png
+    is_binary: true
+  - name: common/resources/images/intro/sp500-treemap.svg
+  - name: common/resources/images/intro/snow-cholera.png
+    is_binary: true
+  - name: common/resources/images/intro/prim9-tukey.jpg
+    is_binary: true
+  - name: common/resources/images/intro/prim9-demo.gif
+    is_binary: true
+  - name: common/resources/images/intro/playfair-2.png
+    is_binary: true
+  - name: common/resources/images/intro/playfair-1.png
+    is_binary: true
+  - name: common/resources/images/intro/dollar-euro-parity.jpeg
+    is_binary: true
+  - name: common/resources/images/intro/coronavirus.svg
+  - name: common/resources/images/intro/causes-of-mortality.png
+    is_binary: true
+  - name: common/resources/images/intro/budget.svg
+  - name: common/resources/images/intro/brexit.jpeg
+    is_binary: true
+  - name: common/resources/images/intro/boston-map.png
+    is_binary: true
+  - name: common/resources/images/intro/bitcoin.svg
+  - name: common/resources/images/intro/arxiv-ml-map_dark.png
+    is_binary: true
+  - name: common/resources/images/intro/arxiv-ml-map.png
+    is_binary: true
+  - name: common/resources/images/intro/anscombe.svg
+  - name: common/resources/images/intro/toledo-rome-distance.png
+    is_binary: true
+  - name: common/resources/images/intro/napoleon-map.png
+    is_binary: true
+  - name: common/resources/images/line_and_scatter_plots/Trend_analysis.svg
+  - name: common/resources/images/line_and_scatter_plots/Data_distribution.svg
+  - name: common/resources/images/line_and_scatter_plots/Outliers.svg
+  - name: common/resources/images/line_and_scatter_plots/Relationship_between_variables.svg
+  - name: common/resources/images/line_and_scatter_plots/Quiz_a.png
+    is_binary: true
+  - name: common/resources/images/line_and_scatter_plots/Quiz_b.png
+    is_binary: true
+  - name: common/resources/images/line_and_scatter_plots/Quiz_c.png
+    is_binary: true
+  - name: common/resources/images/line_and_scatter_plots/Quiz_d.png
+    is_binary: true
+  - name: common/resources/images/bar_and_pie_charts/grouped-bar-chart-1.svg
+    is_binary: true
+  - name: common/resources/images/bar_and_pie_charts/grouped-bar-chart-2.svg
+    is_binary: true
+  - name: common/resources/images/bar_and_pie_charts/grouped-bar-chart-3.svg
+    is_binary: true
+  - name: common/resources/images/bar_and_pie_charts/grouped-bar-chart-4.svg
+    is_binary: true
+  - name: common/resources/images/bar_and_pie_charts/grouped-bar-chart-5.svg
+    is_binary: true
+  - name: common/resources/images/bar_and_pie_charts/comparison-of-categories.svg
+    is_binary: true
+  - name: common/resources/images/bar_and_pie_charts/proportion-of-the-whole.svg
+    is_binary: true
+  - name: common/resources/images/bar_and_pie_charts/change-over-time.svg
+    is_binary: true
+  - name: common/resources/images/histograms/Quiz_A.png
+    is_binary: true
+  - name: common/resources/images/histograms/Quiz_B.png
+    is_binary: true
+  - name: common/resources/images/histograms/Quiz_C.png
+    is_binary: true
+  - name: common/resources/images/histograms/Quiz_D.png
+    is_binary: true
+  - name: common/resources/datasets/experiment.csv
+  - name: common/resources/datasets/games.csv
+  - name: common/resources/datasets/food.csv
+  - name: common/resources/datasets/sales.csv
+  - name: common/__init__.py
+  - name: common/paths.py
+  - name: test_framework/__init__.py
+  - name: test_framework/base.py
+  - name: test_framework/chart_types/__init__.py
+  - name: test_framework/chart_types/bar.py
+  - name: test_framework/chart_types/pie.py
+  - name: test_framework/chart_types/line.py
+  - name: test_framework/chart_types/collection.py
+  - name: test_framework/figure_parts/__init__.py
+  - name: test_framework/figure_parts/title.py
+  - name: test_framework/figure_parts/axis.py
+  - name: test_framework/figure_parts/legend.py
+  - name: test_framework/figure_parts/spine.py
+  - name: test_framework/figure_parts/text.py
+  - name: test_framework/chart_types/hist.py
+  - name: test_framework/figure_parts/figure.py
+  - name: test_framework/figure_parts/orthogonal_line.py
+  - name: common/resources/images/histograms/common-mistake.svg
+  - name: common/resources/images/histograms/distribution.svg
+  - name: common/resources/images/histograms/histograms-vs-bar.svg
+  - name: .aiignore
+mode: Study
+feedback_link: https://plugins.jetbrains.com/plugin/27941-data-visualization-with-python/reviews
+yaml_version: 5

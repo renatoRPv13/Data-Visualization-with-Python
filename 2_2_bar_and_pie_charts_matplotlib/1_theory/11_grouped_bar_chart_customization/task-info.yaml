@@ -1,0 +1,21 @@
+type: edu
+custom_name: Customization
+files:
+  - name: task.py
+    visible: true
+    learner_created: false
+  - name: data.py
+    visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: tests/__init__.py
+    visible: false
+    learner_created: false
+  - name: example.png
+    visible: false
+    is_binary: true
+    learner_created: false
+status: Unchecked
+record: -1

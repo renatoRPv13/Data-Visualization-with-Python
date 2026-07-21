@@ -1,0 +1,30 @@
+type: edu
+custom_name: Histogram plot
+files:
+  - name: example.png
+    visible: false
+    is_binary: true
+    learner_created: false
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 138
+        length: 14
+        placeholder_text: "return  # TODO"
+        initial_state:
+          length: 14
+          offset: 138
+        initialized_from_dependency: false
+        encrypted_possible_answer: ska97hSzhd/0p3OJK9wY7WxF7kUE5bQny4URLVZm/Y2U9aO1eXc7GGPDzfRweGq2pG2NmJlbeoMPgo+CMZkpnVTmNYMmZ4n0WXPIskaCZGPcGrNY+XiZlKRBnfcL147F
+        selected: false
+        status: Unchecked
+        is_visible: false
+    learner_created: false
+  - name: tests/test_task.py
+    visible: false
+    learner_created: false
+  - name: data.py
+    visible: false
+    learner_created: false
+status: Unchecked
+record: -1
